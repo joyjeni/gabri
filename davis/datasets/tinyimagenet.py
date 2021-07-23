@@ -7,7 +7,7 @@ import albumentations as A
 from .base import BaseDataset
 from torchvision.datasets.utils import download_and_extract_archive
 from torchvision.datasets.folder import make_dataset, default_loader
-from athena.utils import ToNumpy, ToTensor
+from davis.utils import ToNumpy, ToTensor
 
 
 class tinyimagenet(BaseDataset):
