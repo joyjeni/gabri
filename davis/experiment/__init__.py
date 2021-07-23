@@ -11,7 +11,7 @@ import pytorch_lightning as pl
 import torch
 import torch.nn as nn
 from davis.solvers.base_solver import BaseSolver
-from davis.tuning import LRFinder
+from davis.optimize import LRFinder
 from davis.utils import ProgbarCallback
 from davis.visualizations import (
     gradcam_misclassified,
