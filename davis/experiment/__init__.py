@@ -10,10 +10,10 @@ import numpy as np
 import pytorch_lightning as pl
 import torch
 import torch.nn as nn
-from athena.solvers.base_solver import BaseSolver
-from athena.tuning import LRFinder
-from athena.utils import ProgbarCallback
-from athena.visualizations import (
+from davis.solvers.base_solver import BaseSolver
+from davis.tuning import LRFinder
+from davis.utils import ProgbarCallback
+from davis.visualizations import (
     gradcam_misclassified,
     plot_misclassified,
     plot_scalars,
